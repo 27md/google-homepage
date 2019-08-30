@@ -1,9 +1,33 @@
-form {
-	background-color: red;
-	margin-right: 400px;
-	position: center;
-	margin-left: 400px;
+.center {
+	position: fixed;
+	top: 30%;
+	right: 40%;
+	display: block;
+
 }
-input {
-	position: center;
+#box {
+	border-radius: 10px;
+	height: 25px;
+}
+#search {
+	margin: 15px;
+	height: 27px;
+	width: 80px;
+}
+#lucky {
+	margin: 15px;
+	margin-left: 45px;
+}
+.top-r {
+	position: fixed;
+	top: -1px;
+	right: 12px;
+	font-size: 14px;
+	height: 35px;
+}
+a {
+	color:gray;
+	display: inline-block;
+	position: relative;
+	top: -6px;
 }
